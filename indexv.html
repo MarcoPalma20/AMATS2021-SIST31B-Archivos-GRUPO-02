@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Ventas</title>
+  
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="cabecera">
+        <p> Restaurante Amore/Ventas </p>
+      </div>
+      <div id="menu">
+        <ul>
+          <li>Fecha <input type="text" name="date" readonly="readonly"></li>
+          <li>Hora<input type="text" name="hora" readonly="readonly" ></li>
+          <li>Codigo de Factura<input type="text" name="factura"></li>
+          <li>Empleado</li>
+          <li><select class="select">
+            <option></option>
+          </select></li>
+        </ul>
+      </div>
+      <div id="contenido">
+        <table id="tabla1">
+          <tr>
+            <td colspan="4"><b>Productos</b></td>
+          </tr>
+          <tr>
+            <td>Buscar</td>
+            <td colspan="2"><input class="textbuscar" type="text" name="Buscar"></td>
+            <td><input class="botonbuscar" type="button" name="botonbuscar" value="Buscar"></td>
+          </tr>
+          <tr>
+            <td colspan="4">h</td>
+          </tr>
+        
+
+          <tr>
+            <td>Codigo</td> 
+            <td>Nombre</td>
+            <td>Cantidad</td>
+            <td>Agregar</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="productocod" readonly="readonly"></td>
+            <td><input type="select" name="nombreprducto" readonly="readonly"></td>
+            <td><input type="number" min="0" name="cantidad">
+            <td><input class="botonagregar" type="button" name="agregar" value="Agregar"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="pie">
+        <table class="tablapie">
+        <tr>
+            <td>Total
+            <input type="text" name="totalp" readonly="readonly"></td>
+      </tr>
+      <tr>
+          <td >Eliminar
+          <input class="boton0" type="button" name="eliminar" value="Eliminar"></td>
+          <td >Generar Venta 
+          <input class="boton" type="button" name="venta" value="Guardar"></td>
+      </tr>
+      </table>
+      </div>
+    </div>
+  </body>
+</html>

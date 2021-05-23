@@ -1,0 +1,111 @@
+  * { 
+        margin:0;
+        padding:0;
+      }
+      a:link, a:visited, a:hover, a:active {
+        color:#0f0;
+        font-size:16px;
+      }
+      body {
+        background:#eee;
+        font-family:verdana;
+      }
+      h1 {
+        color:black;
+        font-size:24px;
+      }
+      p {
+        font-size:16px;
+      }
+      ul {
+        list-style-type:none;
+      }
+      #cabecera {
+      	text-align: center;
+        color:#ff9;
+        background-color:#0D034B;
+        padding:10px;
+      }
+      #contenedor {
+        margin:0 auto;
+        width:100%;
+      }
+      #contenido {
+      	color:white;
+        background-color:#D6D6DB;
+        background-image: url(https://www.publicdomainpictures.net/pictures/300000/velka/abstract-wallpaper-1557232187mc4.jpg);
+        background-size: cover;
+        float:left;
+        height:500px;
+        padding:10px;
+        width:80%;
+      }
+      #tabla1
+      {
+      	width: 100%;
+      	text-align: center;
+      }
+      #menu {
+      	text-align: center;
+        background-color:#06397A;
+        background-image:url(https://img.freepik.com/vector-gratis/vista-superior-taza-cafe-frijoles-tostados_52683-32340.jpg?size=626&ext=jpg);
+        color: white;
+        float:left;
+        height:480px;
+        padding:20px;
+        width:209px;
+      }
+      #pie { 
+        width: auto;
+        background-color:#07948b;
+        clear:both;
+        color:white;
+        padding:10px;
+
+   /*     text-align:center;*/
+      }
+       .boton0
+      {
+      	width: 100px;
+      	background-color: #941b08;
+      /*	border: 0px;
+      	border-radius: 15px;*/
+
+      }
+      .boton
+      {
+      	width: 100px;
+      	background-color: #06880e;
+      	
+
+      }
+      .botonagregar
+      {
+      	width: 200px;
+      	height: 25px;
+      	background-color: #2DC238;
+       	border-radius: 25px;
+
+      }
+   .botonbuscar
+   {
+    	width: 80%;
+    	height: 25px;
+      	background-color: #2DC238;
+      	border-radius: 25px;
+   }
+   .textbuscar
+   {
+   	width: 100%;
+   }
+   .tablapie
+   {
+     /* float: right; */
+   	width: 50%;
+   }
+   .select
+      {
+      	width: 100%;
+      }  
+
+
