@@ -12,6 +12,8 @@ CREATE TABLE usuarios
 	sexo VARCHAR(12),
 	telefono INT NOT NULL,
 	usuario VARCHAR(12) NOT NULL,
+	contra VARCHAR(10000000) NOT NULL,
+	tipo VARCHAR(20) NOT NULL,
 	PRIMARY KEY (idUsuario)
 );
 
@@ -19,7 +21,7 @@ CREATE TABLE productos
 (
 	idproducto INT NOT NULL AUTO_INCREMENT,
 	nombre VARCHAR(150) NOT NULL,
-	costo DECIMAL (5,2),
+	costo VARCHAR (20),
 	PRIMARY KEY (idproducto)
 );
 
@@ -37,19 +39,15 @@ CREATE TABLE CodFactura
 	idCliente INT NOT NULL ,
 	idproducto INT NOT NULL,
 	idUsuario INT NOT NULL,
-	total DECIMAL(7,2),
+	total VARCHAR(50),
 	PRIMARY KEY (idFactura),
 	FOREIGN KEY (idCliente) REFERENCES clientes (idCliente),
 	FOREIGN KEY (idproducto) REFERENCES productos (idproducto),
 	FOREIGN KEY (idUsuario) REFERENCES usuarios (idUsuario)
 	
 );
+
 SELECT * FROM usuarios
 SELECT * FROM productos
 SELECT * FROM clientes
 SELECT * FROM CodFactura
-
-
-
-
-
